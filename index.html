@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin: 20px 0;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img:hover {
+            border-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Catalogue</h1>
+    <div class="gallery">
+        <img src="page_1.png" alt="Catalogue Image">
+        <img src="page_2.png" alt="Catalogue Image">
+
+    </div>
+</body>
+</html>
